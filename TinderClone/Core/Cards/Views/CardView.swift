@@ -13,8 +13,8 @@ struct CardView: View {
     @State private var currImageIndex = 0
     
     @State private var mockimages = [
-        "lisa-black-pink-1",
         "lisa-black-pink-2",
+        "lisa-black-pink-1",
         "lisa-black-pink-3",
     ]
     
@@ -28,6 +28,8 @@ struct CardView: View {
                     .overlay {
                         ImageScrollingOverlay(currImageIndex: $currImageIndex, imageCount: mockimages.count)
                     }
+                
+                CardImageIndicatorView(currImageIndex: currImageIndex, imageCount: mockimages.count)
                 
                 SwipeActionIndicatorView(xOffset: $xOffset)
             }
