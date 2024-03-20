@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE132F7D2BAA66F100DED1F6 /* CardImageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE132F7C2BAA66F100DED1F6 /* CardImageIndicatorView.swift */; };
+		CE132F7F2BAA75FB00DED1F6 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE132F7E2BAA75FB00DED1F6 /* CardStackView.swift */; };
 		CE3592B62BA7B18700AF261F /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3592B52BA7B18700AF261F /* SwipeActionIndicatorView.swift */; };
 		CE3592B92BA7B43F00AF261F /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3592B82BA7B43F00AF261F /* SizeConstants.swift */; };
 		CE3592BB2BA7CFCD00AF261F /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3592BA2BA7CFCD00AF261F /* ImageScrollingOverlay.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		CE132F7C2BAA66F100DED1F6 /* CardImageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageIndicatorView.swift; sourceTree = "<group>"; };
+		CE132F7E2BAA75FB00DED1F6 /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
 		CE3592B52BA7B18700AF261F /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		CE3592B82BA7B43F00AF261F /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 		CE3592BA2BA7CFCD00AF261F /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				CE3592B52BA7B18700AF261F /* SwipeActionIndicatorView.swift */,
 				CE3592BA2BA7CFCD00AF261F /* ImageScrollingOverlay.swift */,
 				CE132F7C2BAA66F100DED1F6 /* CardImageIndicatorView.swift */,
+				CE132F7E2BAA75FB00DED1F6 /* CardStackView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				CE7B03232BA6879D00A27030 /* ContentView.swift in Sources */,
 				CE3592B62BA7B18700AF261F /* SwipeActionIndicatorView.swift in Sources */,
 				CE132F7D2BAA66F100DED1F6 /* CardImageIndicatorView.swift in Sources */,
+				CE132F7F2BAA75FB00DED1F6 /* CardStackView.swift in Sources */,
 				CE7B03212BA6879D00A27030 /* TinderCloneApp.swift in Sources */,
 				CE7B033C2BA68B4D00A27030 /* CardView.swift in Sources */,
 				CE7B03392BA688BD00A27030 /* MainTabView.swift in Sources */,
