@@ -11,7 +11,8 @@ import SwiftUI
 struct TinderCloneApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            CardStackView()
         }
     }
 }
