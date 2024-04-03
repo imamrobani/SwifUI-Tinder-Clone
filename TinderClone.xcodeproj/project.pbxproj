@@ -24,6 +24,8 @@
 		CEEA74AB2BAD13410097AF4E /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA74AA2BAD13410097AF4E /* CardsViewModel.swift */; };
 		CEEA74AE2BAD14130097AF4E /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA74AD2BAD14130097AF4E /* CardService.swift */; };
 		CEEA74B12BAD15030097AF4E /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA74B02BAD15030097AF4E /* MockData.swift */; };
+		CEF37BE02BBD33FE00F5806E /* SwipeActionButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF37BDF2BBD33FE00F5806E /* SwipeActionButtonsView.swift */; };
+		CEF37BE22BBD350900F5806E /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF37BE12BBD350900F5806E /* SwipeAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		CEEA74AA2BAD13410097AF4E /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
 		CEEA74AD2BAD14130097AF4E /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
 		CEEA74B02BAD15030097AF4E /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		CEF37BDF2BBD33FE00F5806E /* SwipeActionButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionButtonsView.swift; sourceTree = "<group>"; };
+		CEF37BE12BBD350900F5806E /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +202,7 @@
 				CE3592BA2BA7CFCD00AF261F /* ImageScrollingOverlay.swift */,
 				CE132F7C2BAA66F100DED1F6 /* CardImageIndicatorView.swift */,
 				CE132F7E2BAA75FB00DED1F6 /* CardStackView.swift */,
+				CEF37BDF2BBD33FE00F5806E /* SwipeActionButtonsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				CEEA74A72BAD12D90097AF4E /* CardModel.swift */,
+				CEF37BE12BBD350900F5806E /* SwipeAction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -325,8 +331,10 @@
 				CE3592B92BA7B43F00AF261F /* SizeConstants.swift in Sources */,
 				CE7B03232BA6879D00A27030 /* ContentView.swift in Sources */,
 				CEEA74B12BAD15030097AF4E /* MockData.swift in Sources */,
+				CEF37BE22BBD350900F5806E /* SwipeAction.swift in Sources */,
 				CE3592B62BA7B18700AF261F /* SwipeActionIndicatorView.swift in Sources */,
 				CE132F7D2BAA66F100DED1F6 /* CardImageIndicatorView.swift in Sources */,
+				CEF37BE02BBD33FE00F5806E /* SwipeActionButtonsView.swift in Sources */,
 				CEEA74A82BAD12D90097AF4E /* CardModel.swift in Sources */,
 				CE132F7F2BAA75FB00DED1F6 /* CardStackView.swift in Sources */,
 				CE7B03212BA6879D00A27030 /* TinderCloneApp.swift in Sources */,
