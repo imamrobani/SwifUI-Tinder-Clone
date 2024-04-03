@@ -64,17 +64,21 @@ private extension CardView {
     }
     
     func swipeRight() {
-        xOffset = 500
-        degress = 12
-        
-        viewModel.removeCard(model)
+        withAnimation {
+            xOffset = 500
+            degress = 12
+        } completion: {
+            viewModel.removeCard(model)
+        }
     }
     
     func swipeLeft() {
-        xOffset = -500
-        degress = -12
-        
-        viewModel.removeCard(model)
+        withAnimation {
+            xOffset = -500
+            degress = -12
+        } completion: {
+            viewModel.removeCard(model)
+        }
     }
 }
 
@@ -87,7 +91,7 @@ private extension CardView {
     
     func onDragEnded(_ value: _ChangedGesture<DragGesture>.Value) {
         let width = value.translation.width
-    
+        
         if abs(width) < abs(SizeConstants.screenCutOff) {
             returnToCenter()
             return
