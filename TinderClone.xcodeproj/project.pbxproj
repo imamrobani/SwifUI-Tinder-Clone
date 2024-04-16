@@ -12,6 +12,7 @@
 		CE3592B62BA7B18700AF261F /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3592B52BA7B18700AF261F /* SwipeActionIndicatorView.swift */; };
 		CE3592B92BA7B43F00AF261F /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3592B82BA7B43F00AF261F /* SizeConstants.swift */; };
 		CE3592BB2BA7CFCD00AF261F /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3592BA2BA7CFCD00AF261F /* ImageScrollingOverlay.swift */; };
+		CE3A22122BCE7D430044A61C /* CurrentUserProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A22112BCE7D430044A61C /* CurrentUserProfileHeaderView.swift */; };
 		CE7B03212BA6879D00A27030 /* TinderCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B03202BA6879D00A27030 /* TinderCloneApp.swift */; };
 		CE7B03232BA6879D00A27030 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B03222BA6879D00A27030 /* ContentView.swift */; };
 		CE7B03252BA6879E00A27030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7B03242BA6879E00A27030 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		CE7B033C2BA68B4D00A27030 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B033B2BA68B4D00A27030 /* CardView.swift */; };
 		CE7B03402BA6948A00A27030 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B033F2BA6948A00A27030 /* UserInfoView.swift */; };
 		CEE643C82BCE66A500032570 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE643C72BCE66A500032570 /* UserProfileView.swift */; };
+		CEE643CC2BCE7C5200032570 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE643CB2BCE7C5200032570 /* CurrentUserProfileView.swift */; };
 		CEEA74A52BAD127C0097AF4E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA74A42BAD127C0097AF4E /* User.swift */; };
 		CEEA74A82BAD12D90097AF4E /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA74A72BAD12D90097AF4E /* CardModel.swift */; };
 		CEEA74AB2BAD13410097AF4E /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA74AA2BAD13410097AF4E /* CardsViewModel.swift */; };
@@ -35,6 +37,7 @@
 		CE3592B52BA7B18700AF261F /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		CE3592B82BA7B43F00AF261F /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 		CE3592BA2BA7CFCD00AF261F /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
+		CE3A22112BCE7D430044A61C /* CurrentUserProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileHeaderView.swift; sourceTree = "<group>"; };
 		CE7B031D2BA6879D00A27030 /* TinderClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7B03202BA6879D00A27030 /* TinderCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneApp.swift; sourceTree = "<group>"; };
 		CE7B03222BA6879D00A27030 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		CE7B033B2BA68B4D00A27030 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CE7B033F2BA6948A00A27030 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 		CEE643C72BCE66A500032570 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		CEE643CB2BCE7C5200032570 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		CEEA74A42BAD127C0097AF4E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CEEA74A72BAD12D90097AF4E /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		CEEA74AA2BAD13410097AF4E /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
@@ -173,7 +177,8 @@
 		CE7B03352BA6888A00A27030 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				CEE643C72BCE66A500032570 /* UserProfileView.swift */,
+				CEE643CA2BCE7C2D00032570 /* UserProfile */,
+				CEE643C92BCE7C2B00032570 /* CurrentUserProfile */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -208,6 +213,23 @@
 				CEF37BDF2BBD33FE00F5806E /* SwipeActionButtonsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CEE643C92BCE7C2B00032570 /* CurrentUserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				CEE643CB2BCE7C5200032570 /* CurrentUserProfileView.swift */,
+				CE3A22112BCE7D430044A61C /* CurrentUserProfileHeaderView.swift */,
+			);
+			path = CurrentUserProfile;
+			sourceTree = "<group>";
+		};
+		CEE643CA2BCE7C2D00032570 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				CEE643C72BCE66A500032570 /* UserProfileView.swift */,
+			);
+			path = UserProfile;
 			sourceTree = "<group>";
 		};
 		CEEA74A22BAD12680097AF4E /* Users */ = {
@@ -330,8 +352,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3592BB2BA7CFCD00AF261F /* ImageScrollingOverlay.swift in Sources */,
+				CEE643CC2BCE7C5200032570 /* CurrentUserProfileView.swift in Sources */,
 				CEE643C82BCE66A500032570 /* UserProfileView.swift in Sources */,
 				CEEA74AE2BAD14130097AF4E /* CardService.swift in Sources */,
+				CE3A22122BCE7D430044A61C /* CurrentUserProfileHeaderView.swift in Sources */,
 				CE3592B92BA7B43F00AF261F /* SizeConstants.swift in Sources */,
 				CE7B03232BA6879D00A27030 /* ContentView.swift in Sources */,
 				CEEA74B12BAD15030097AF4E /* MockData.swift in Sources */,
