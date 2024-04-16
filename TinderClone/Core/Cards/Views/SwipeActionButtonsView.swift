@@ -15,33 +15,34 @@ struct SwipeActionButtonsView: View {
             Button {
                 viewModel.buttonSwipeAction = .reject
             } label: {
-                Image(systemName: "xmark")
-                    .fontWeight(.heavy)
-                    .foregroundStyle(.red)
-                    .background {
-                        Circle()
-                            .fill(.white)
-                            .frame(width: 48, height: 48)
-                            .shadow(radius: 6)
-                    }
+                actionButton(name: "xmark", color: .red)
             }
             .frame(width: 48, height: 58)
             
             Button {
                 viewModel.buttonSwipeAction = .like
             } label: {
-                Image(systemName: "heart.fill")
-                    .fontWeight(.heavy)
-                    .foregroundStyle(.green)
-                    .background {
-                        Circle()
-                            .fill(.white)
-                            .frame(width: 48, height: 48)
-                            .shadow(radius: 6)
-                    }
+                actionButton(name: "heart.fill", color: .green)
             }
             .frame(width: 48, height: 58)
         }
+    }
+    
+}
+
+
+private extension SwipeActionButtonsView {
+    @ViewBuilder
+    func actionButton(name: String, color: Color) -> some View {
+        Image(systemName: name)
+            .fontWeight(.heavy)
+            .foregroundStyle(color)
+            .background {
+                Circle()
+                    .fill(.white)
+                    .frame(width: 48, height: 48)
+                    .shadow(radius: 6)
+            }
     }
 }
 

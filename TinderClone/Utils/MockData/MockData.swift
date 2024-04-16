@@ -19,7 +19,7 @@ struct MockData {
             id: NSUUID().uuidString,
             fullname: "Jisoo Black Pink",
             age: 25,
-            profileImageUrls: ["jisoo-black-pink-2", "jisoo-black-pink-3"]
+            profileImageUrls: ["jisoo-black-pink-3", "jisoo-black-pink-2"]
         ),
         .init(
             id: NSUUID().uuidString,
