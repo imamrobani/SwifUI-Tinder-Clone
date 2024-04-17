@@ -20,6 +20,8 @@
 		CE7B03392BA688BD00A27030 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B03382BA688BD00A27030 /* MainTabView.swift */; };
 		CE7B033C2BA68B4D00A27030 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B033B2BA68B4D00A27030 /* CardView.swift */; };
 		CE7B03402BA6948A00A27030 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B033F2BA6948A00A27030 /* UserInfoView.swift */; };
+		CED230832BD00AE500B53917 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED230822BD00AE500B53917 /* EditProfileView.swift */; };
+		CED230852BD00C1100B53917 /* ProfileImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED230842BD00C1100B53917 /* ProfileImageGridView.swift */; };
 		CEE643C82BCE66A500032570 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE643C72BCE66A500032570 /* UserProfileView.swift */; };
 		CEE643CC2BCE7C5200032570 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE643CB2BCE7C5200032570 /* CurrentUserProfileView.swift */; };
 		CEEA74A52BAD127C0097AF4E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA74A42BAD127C0097AF4E /* User.swift */; };
@@ -46,6 +48,8 @@
 		CE7B03382BA688BD00A27030 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		CE7B033B2BA68B4D00A27030 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CE7B033F2BA6948A00A27030 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		CED230822BD00AE500B53917 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		CED230842BD00C1100B53917 /* ProfileImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageGridView.swift; sourceTree = "<group>"; };
 		CEE643C72BCE66A500032570 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		CEE643CB2BCE7C5200032570 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		CEEA74A42BAD127C0097AF4E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -177,8 +181,9 @@
 		CE7B03352BA6888A00A27030 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				CEE643CA2BCE7C2D00032570 /* UserProfile */,
 				CEE643C92BCE7C2B00032570 /* CurrentUserProfile */,
+				CED230812BD00AD400B53917 /* EditProfile */,
+				CEE643CA2BCE7C2D00032570 /* UserProfile */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -213,6 +218,15 @@
 				CEF37BDF2BBD33FE00F5806E /* SwipeActionButtonsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CED230812BD00AD400B53917 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				CED230822BD00AE500B53917 /* EditProfileView.swift */,
+				CED230842BD00C1100B53917 /* ProfileImageGridView.swift */,
+			);
+			path = EditProfile;
 			sourceTree = "<group>";
 		};
 		CEE643C92BCE7C2B00032570 /* CurrentUserProfile */ = {
@@ -351,6 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED230832BD00AE500B53917 /* EditProfileView.swift in Sources */,
 				CE3592BB2BA7CFCD00AF261F /* ImageScrollingOverlay.swift in Sources */,
 				CEE643CC2BCE7C5200032570 /* CurrentUserProfileView.swift in Sources */,
 				CEE643C82BCE66A500032570 /* UserProfileView.swift in Sources */,
@@ -364,6 +379,7 @@
 				CE132F7D2BAA66F100DED1F6 /* CardImageIndicatorView.swift in Sources */,
 				CEF37BE02BBD33FE00F5806E /* SwipeActionButtonsView.swift in Sources */,
 				CEEA74A82BAD12D90097AF4E /* CardModel.swift in Sources */,
+				CED230852BD00C1100B53917 /* ProfileImageGridView.swift in Sources */,
 				CE132F7F2BAA75FB00DED1F6 /* CardStackView.swift in Sources */,
 				CE7B03212BA6879D00A27030 /* TinderCloneApp.swift in Sources */,
 				CE7B033C2BA68B4D00A27030 /* CardView.swift in Sources */,
