@@ -14,6 +14,7 @@
 		CE3592BB2BA7CFCD00AF261F /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3592BA2BA7CFCD00AF261F /* ImageScrollingOverlay.swift */; };
 		CE3A22122BCE7D430044A61C /* CurrentUserProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A22112BCE7D430044A61C /* CurrentUserProfileHeaderView.swift */; };
 		CE74DAEE2BD10C4B000DA995 /* UserMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74DAED2BD10C4B000DA995 /* UserMatchView.swift */; };
+		CE74DAF12BD16D53000DA995 /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74DAF02BD16D53000DA995 /* MatchManager.swift */; };
 		CE7B03212BA6879D00A27030 /* TinderCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B03202BA6879D00A27030 /* TinderCloneApp.swift */; };
 		CE7B03232BA6879D00A27030 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B03222BA6879D00A27030 /* ContentView.swift */; };
 		CE7B03252BA6879E00A27030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7B03242BA6879E00A27030 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		CE3592BA2BA7CFCD00AF261F /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 		CE3A22112BCE7D430044A61C /* CurrentUserProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileHeaderView.swift; sourceTree = "<group>"; };
 		CE74DAED2BD10C4B000DA995 /* UserMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMatchView.swift; sourceTree = "<group>"; };
+		CE74DAF02BD16D53000DA995 /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchManager.swift; sourceTree = "<group>"; };
 		CE7B031D2BA6879D00A27030 /* TinderClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7B03202BA6879D00A27030 /* TinderCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneApp.swift; sourceTree = "<group>"; };
 		CE7B03222BA6879D00A27030 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		CE74DAEB2BD10C30000DA995 /* Matches */ = {
 			isa = PBXGroup;
 			children = (
+				CE74DAEF2BD16D45000DA995 /* Manager */,
 				CE74DAEC2BD10C39000DA995 /* View */,
 			);
 			path = Matches;
@@ -96,6 +99,14 @@
 				CE74DAED2BD10C4B000DA995 /* UserMatchView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CE74DAEF2BD16D45000DA995 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CE74DAF02BD16D53000DA995 /* MatchManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		CE7B03142BA6879D00A27030 = {
@@ -397,6 +408,7 @@
 				CE3592B62BA7B18700AF261F /* SwipeActionIndicatorView.swift in Sources */,
 				CE132F7D2BAA66F100DED1F6 /* CardImageIndicatorView.swift in Sources */,
 				CEF37BE02BBD33FE00F5806E /* SwipeActionButtonsView.swift in Sources */,
+				CE74DAF12BD16D53000DA995 /* MatchManager.swift in Sources */,
 				CE74DAEE2BD10C4B000DA995 /* UserMatchView.swift in Sources */,
 				CEEA74A82BAD12D90097AF4E /* CardModel.swift in Sources */,
 				CED230852BD00C1100B53917 /* ProfileImageGridView.swift in Sources */,
